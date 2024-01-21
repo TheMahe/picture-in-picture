@@ -1,23 +1,35 @@
+<!-- 
+
+    This is the HTML file for the "Picture in Picture" project. It contains the basic structure of the webpage, including the necessary meta tags, title, external CSS and JavaScript files, and the video element with its controls.
+
+    The video element is initially hidden and has an id of "video". It has a height of 360 pixels and a width of 640 pixels.
+
+    There is also a button with an id of "button" inside a container div with a class of "button-container". This button is used to start the picture-in-picture functionality.
+
+    The JavaScript file "script.js" is included at the end of the body to handle the functionality of the project.
+
+-->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Picture in Picture</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <video id="video" controls height="360px" width="640px" hidden></video>
 
-     <!-- Button -->
-     <div class="button-container">
-         <button id="button">START</button>
-     </div>
-   
-
+    <!-- Button -->
+    <div class="button-container">
+      <button id="button">START</button>
+    </div>
 
     <!-- Script -->
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
